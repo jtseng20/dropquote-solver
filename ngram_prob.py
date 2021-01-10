@@ -1,3 +1,6 @@
+# Practical Cryptography, 17/07/12
+# http://practicalcryptography.com/cryptanalysis/text-characterisation/quadgrams/
+
 from math import log10
 import os.path
 
@@ -27,6 +30,5 @@ class ngram_score(object):
 		for i in range(len(text)-self.L+1):
 			if text[i:i+self.L] in self.ngrams: 
 				score += ngrams(text[i:i+self.L])
-				#print(ngrams(text[i:i+self.L]))
 			else: score += self.floor          
 		return ((score))

@@ -127,28 +127,3 @@ def attack(dqObj):
   print("Final result: "+plain+" with certainty of: "+str(parentScore))
   
 attack(DQ)
-"""
-l1 = "GRCIEP"
-l2 = "LPMTE"
-l3 = "IPOEA"
-l4 = "RNGS"
-l5 = "GEI"
-l6 = "SDN"
-l7 = "SIT"
-l8 = "INE"
-l9 = "OTYR"
-l10 = "NEO"
-
-for a in l1:
-  for b in l2:
-    for c in l3:
-      for d in l4:
-        for e in l5:
-          for f in l6:
-            for g in l7:
-              for h in l8:
-                for i in l9:
-                  for j in l10:
-                    if a+b+c+d+e+f+g+h+i+j in sowpods:
-                      print(a+b+c+d+e+f+g+h+i+j)
-"""
